@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown for Yasmine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="heart-bg">
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+    </div>
+
+    <div class="timer">
+        <div class="title">Counting Down for my beloved &hearts; Yasmine &hearts;</div>
+
+        <!-- Months Progress -->
+        <div class="time-section">
+            <div class="time-label">Months: <span class="time" id="months">0</span></div>
+            <div class="progress-container">
+                <div class="progress-bar" id="months-bar"></div>
+            </div>
+            <div class="percentage" id="months-percent">0%</div>
+        </div>
+
+        <!-- Weeks Progress -->
+        <div class="time-section">
+            <div class="time-label">Weeks: <span class="time" id="weeks">0</span></div>
+            <div class="progress-container">
+                <div class="progress-bar" id="weeks-bar"></div>
+            </div>
+            <div class="percentage" id="weeks-percent">0%</div>
+        </div>
+
+        <!-- Days Progress -->
+        <div class="time-section">
+            <div class="time-label">Days: <span class="time" id="days">0</span></div>
+            <div class="progress-container">
+                <div class="progress-bar" id="days-bar"></div>
+            </div>
+            <div class="percentage" id="days-percent">0%</div>
+        </div>
+
+        <!-- Hours Progress -->
+        <div class="time-section">
+            <div class="time-label">Hours: <span class="time" id="hours">0</span></div>
+            <div class="progress-container">
+                <div class="progress-bar" id="hours-bar"></div>
+            </div>
+            <div class="percentage" id="hours-percent">0%</div>
+        </div>
+
+        <!-- Minutes Progress -->
+        <div class="time-section">
+            <div class="time-label">Minutes: <span class="time" id="minutes">0</span></div>
+            <div class="progress-container">
+                <div class="progress-bar" id="minutes-bar"></div>
+            </div>
+            <div class="percentage" id="minutes-percent">0%</div>
+        </div>
+
+        <!-- Seconds Progress -->
+        <div class="time-section">
+            <div class="time-label">Seconds: <span class="time" id="seconds">0</span></div>
+            <div class="progress-container">
+                <div class="progress-bar" id="seconds-bar"></div>
+            </div>
+            <div class="percentage" id="seconds-percent">0%</div>
+        </div>
+
+        <div class="message" id="finish-message" style="display: none;">You made it! 🌸 I'm so proud of you!</div>
+
+        <!-- Daily Quote -->
+        <div class="daily-quote">
+            <p id="daily-quote">Loading quote...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
